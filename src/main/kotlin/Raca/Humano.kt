@@ -3,7 +3,7 @@ package org.example.Raca
 import org.example.Personagem.Personagem
 
 class Humano : Raca{
-    override fun acrescentaPontosHabilidades(personagem: Personagem){
+    override fun pontosHabilidades(personagem: Personagem){
         personagem.forca += 1
         personagem.destreza += 1
         personagem.constituicao += 1

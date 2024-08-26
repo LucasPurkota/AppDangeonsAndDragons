@@ -2,8 +2,8 @@ package org.example.Raca
 
 import org.example.Personagem.Personagem
 
-class AnaoColina : Raca {
-    override fun acrescentaPontosHabilidades(personagem: Personagem) {
+class AnaoDaColina : Raca {
+    override fun pontosHabilidades(personagem: Personagem) {
         personagem.sabedoria += 1
     }
 }
