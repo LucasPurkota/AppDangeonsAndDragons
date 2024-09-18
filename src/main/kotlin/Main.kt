@@ -35,26 +35,7 @@ fun main() {
         raca = readln().toInt()
     }while ((raca < 1) || (raca > 18))
 
-    personagem.raca = when(raca) {
-        1 -> AltoElfo()
-        2 -> Anao()
-        3 -> AnaoDaColina()
-        4 -> AnaoDaMontanha()
-        5 -> Draconato()
-        6 -> Drow()
-        7 -> Elfo()
-        8 -> ElfoDaFloresta()
-        9 -> Gnomo()
-        10 -> GnomoDaFloresta()
-        11 -> GnomoDasRochas()
-        12 -> Halfling()
-        13 -> HalflingPesLeves()
-        14 -> HalflingRobusto()
-        15 -> Humano()
-        16 -> MeioElfo()
-        17 -> MeioOrc()
-        else -> Tiefling()
-    }
+    personagem.escolherRaca(raca)
 
     var pontosHabilidadeDisponivel = 27
     println("========DISTRIBIÇÃO DE PONTOS DE HABILIDADE========")
