@@ -44,4 +44,76 @@ open class Personagem {
             else -> Tiefling()
         }
     }
+
+    fun verificarPontosDisponiveis() : Int {
+        var pontosDisponiveis = 27
+        var result : Int = 0
+        when(this.forca) {
+            8 -> result = pontosDisponiveis - 0
+            9 -> result = pontosDisponiveis - 1
+            10 -> result = pontosDisponiveis - 2
+            11 -> result = pontosDisponiveis - 3
+            12 -> result = pontosDisponiveis - 4
+            13 -> result = pontosDisponiveis - 5
+            14 -> result = pontosDisponiveis - 7
+            15 -> result = pontosDisponiveis - 8
+            else -> result = result
+        }
+        when(this.destreza) {
+            8 -> result = pontosDisponiveis - 0
+            9 -> result = pontosDisponiveis - 1
+            10 -> result = pontosDisponiveis - 2
+            11 -> result = pontosDisponiveis - 3
+            12 -> result = pontosDisponiveis - 4
+            13 -> result = pontosDisponiveis - 5
+            14 -> result = pontosDisponiveis - 7
+            15 -> result = pontosDisponiveis - 8
+            else -> result = result
+        }
+        when(this.constituicao) {
+            8 -> result = pontosDisponiveis - 0
+            9 -> result = pontosDisponiveis - 1
+            10 -> result = pontosDisponiveis - 2
+            11 -> result = pontosDisponiveis - 3
+            12 -> result = pontosDisponiveis - 4
+            13 -> result = pontosDisponiveis - 5
+            14 -> result = pontosDisponiveis - 7
+            15 -> result = pontosDisponiveis - 8
+            else -> result = result
+        }
+        when(this.inteligencia) {
+            8 -> result = pontosDisponiveis - 0
+            9 -> result = pontosDisponiveis - 1
+            10 -> result = pontosDisponiveis - 2
+            11 -> result = pontosDisponiveis - 3
+            12 -> result = pontosDisponiveis - 4
+            13 -> result = pontosDisponiveis - 5
+            14 -> result = pontosDisponiveis - 7
+            15 -> result = pontosDisponiveis - 8
+            else -> result = result
+        }
+        when(this.sabedoria) {
+            8 -> result = pontosDisponiveis - 0
+            9 -> result = pontosDisponiveis - 1
+            10 -> result = pontosDisponiveis - 2
+            11 -> result = pontosDisponiveis - 3
+            12 -> result = pontosDisponiveis - 4
+            13 -> result = pontosDisponiveis - 5
+            14 -> result = pontosDisponiveis - 7
+            15 -> result = pontosDisponiveis - 8
+            else -> result = result
+        }
+        when(this.carisma) {
+            8 -> result = pontosDisponiveis - 0
+            9 -> result = pontosDisponiveis - 1
+            10 -> result = pontosDisponiveis - 2
+            11 -> result = pontosDisponiveis - 3
+            12 -> result = pontosDisponiveis - 4
+            13 -> result = pontosDisponiveis - 5
+            14 -> result = pontosDisponiveis - 7
+            15 -> result = pontosDisponiveis - 8
+            else -> result = result
+        }
+        return result
+    }
 }
