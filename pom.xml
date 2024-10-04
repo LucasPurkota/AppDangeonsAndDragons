@@ -86,7 +86,7 @@
         <dependency>
             <groupId>com.github.LucasPurkota</groupId>
             <artifactId>AppDangeonsAndDragons</artifactId>
-            <version>1.0-SANPSHOT</version>
+            <version>3.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
